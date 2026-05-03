@@ -1,5 +1,6 @@
 .home {
     text-align: center;
+    padding: 0 0 70px 0;
 }
 
 .home-title {
@@ -21,17 +22,17 @@
     object-fit: cover;
 }
 
-@media (max-width: 480px){
+@media (max-width: 480px) {
     .home {
         text-align: left;
     }
 
     .home-title {
         max-width: 250px;
-    font-size: 32px;
-}
+        font-size: 32px;
+    }
 
-.home-description {
-    font-size: 14px;
-}
+    .home-description {
+        font-size: 14px;
+    }
 }
